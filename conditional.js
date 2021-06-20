@@ -31,3 +31,20 @@ if(seatsInCar >= passengers){
 else{
   console.log("Not ready. check car, passengers, and equipment");
 }//end not enought seats
+
+
+let fatherFirstName = "John";
+let fatherLastName = "Doe";
+
+let motherFirstName = "Mary";
+let motherLastName = "Doe";
+
+let sonFirstName = "Son";
+let sonLastName = "Doe";
+
+
+if(fatherFirstName === fatherFirstName && fatherLastName === fatherLastName || motherFirstName === "nadiya" && motherLastName ==="elmi"){
+  console.log(`It appears that ${fatherFirstName} ${fatherLastName} and ${motherFirstName} ${motherLastName} have a son name ${sonFirstName} ${sonLastName} together`);
+}else {
+  console.log("We are not able to indentify your names here. Please try again.")
+}
